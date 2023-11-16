@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edeaff;
+}
+
+.stop-watch {
+  width: 90%;
+  max-width: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://cdn.pixabay.com/photo/2020/01/21/11/39/running-4782722_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.stop-watch h1 {
+  margin-top: 60px;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons div {
+  width: 80px;
+  height: 80px;
+  margin: 50px 30px 0 30px;
+  cursor: pointer;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons div i {
+  transform: scale(1.5);
+}
+
+#start {
+  background: rgb(255, 115, 0);
+  border: 0;
+  transform: scale(1.2);
+}
