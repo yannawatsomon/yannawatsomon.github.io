@@ -55,3 +55,6 @@ form .display input {
 form input.operator {
   color: #33ffd8;
 }
+form input.editer {
+  color: #33ffd8;
+}
