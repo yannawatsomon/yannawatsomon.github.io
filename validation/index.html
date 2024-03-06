@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" id="input-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+            <div class="input-box">
+                <label>Phone number</label>
+                <input type="number" placeholder="Enter your number" id="input-phone" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" id="input-email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>
+            <button id="submit-button">Submit</button>
+            <span id="submit-error"></span>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
