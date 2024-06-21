@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: lower-roman;
+    font-size: large;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 900;
+}
+
+tr {
+    height: 50px;
+}
+
+table {
+    width: 1700px;
+}
+
+.subject-1 {
+    background-color: aquamarine;
+}
+
+.subject-2 {
+    background-color: bisque;
+}
+
+.subject-3 {
+    background-color: khaki;
+}
