@@ -1,0 +1,51 @@
+* {
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #212121;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    color: azure;
+
+}
+
+li:nth-child(1) {
+    background-color: #4CAF50;
+    color: azure;
+}
+
+a:hover {
+    background-color: #90EE90;
+    color: #212121;
+}
+
+h1 {
+    margin: 20px;
+    padding: 30px;
+}
+
+p {
+    margin-left: 20px;
+    padding-left: 30px;
+    font-size: 25px;
+}

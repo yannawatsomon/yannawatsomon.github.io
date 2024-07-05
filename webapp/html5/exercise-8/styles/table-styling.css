@@ -1,0 +1,42 @@
+* {
+    font-family: "Popins", sans-serif;
+}
+
+header {
+    background-color: #AED9E5;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#courses-container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#courses {
+    border-collapse: collapse;
+    width: 100%;
+}
+#courses td,
+#courses th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#courses tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+#courses tr:hover {
+    background-color: #ddd;
+}
+#courses th {
+    font-size: larger;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
