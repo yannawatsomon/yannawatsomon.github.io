@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design p2</title>
+    <link rel="stylesheet" href="styles/prob2.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML5 Review</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="form-section">
+            <form action="">
+                <h2>Registration Form</h2>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" email="email" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" password="password" required /></td>
+                    </tr>
+                </table>
+                <form action="">
+                    <fieldset>
+                        <legend>Select a plan</legend>
+                        <input type="radio" id="plan-choice" value="basic" name="plan" required>
+                        <label for="basic" class="plan">Basic</label>
+                        <input type="radio" id="plan-choice" value="pro" name="plan" required>
+                        <label for="pro" class="plan">Pro</label>
+                        <input type="radio" id="plan-choice" value="enterprise" name="plan" required>
+                        <label for="enterprise" class="plan">Enterprise</label>
+                        <br>
+                    </fieldset>
+                    <input type="checkbox" required>
+                    <label for="checkbox">I agree to the terms and conditions</label>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </form>
+
+            <div class="img-gallery">
+                <h2>Image Gallery</h2>
+                <div class="gallery">
+
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                            alt="">
+                    </div>
+
+                    <!-- <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt="">
+                    <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt="">
+                    <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt="">
+                    <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt="">
+                    <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt="">
+                    <img src="https://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png"
+                        alt=""> -->
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="content-section">
+            <h2>Featured Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G2fqAlgmoPo?si=ZrNNuMJvyVsYFT3L"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+            <p>If your browser does not support iframes. You can <a href="">watch the video here</a></p>
+            <ul class="list">
+                <li>item 1</li>
+                <li>item 2</li>
+                <ul class="sub-list">
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul>
+            </ul>
+            <figure>
+                <div class="img-container"><img id="tm-img"
+                        src="https://koronapos.com/wp-content/uploads/2022/05/Time-Management.png.webp" alt="">
+                </div>
+                <br>
+                <figcaption>Figure Caption: Time management tips</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Yannawat Somon (643040192-1)</p>
+    </footer>
+</body>
+
+</html>

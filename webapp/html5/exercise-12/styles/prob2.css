@@ -1,0 +1,162 @@
+* {
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    background-color: #212121;
+    overflow: hidden;
+    width: 100%;
+}
+
+header h1 {
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1C23FB;
+}
+
+nav li a:hover {
+    background-color: #A0D1EA;
+}
+
+#form-section {
+    width: 40%;
+}
+
+#content-section {
+    width: 60%;
+}
+
+.registration form {
+    padding: 5px;
+    margin: 5px;
+}
+
+form {
+    margin-left: 30px;
+}
+
+#form-section label {
+    display: inline-block;
+    margin-top: 5px ;
+    margin-bottom: 10px ;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+.plan{
+    width: fit-content;
+}
+
+.sub-list li::before {
+    content: "→";
+    margin-left: 0.05rem;
+}
+
+.sub-list li {
+    list-style:decimal;
+}
+
+.img-gallery {
+    margin-left: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.img-container {
+    max-width: 600px;
+    min-width: 450px;
+    height: auto;
+}
+
+.img-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.video-container {
+    max-width: 600px;
+    width: auto;
+    height: 500px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    main {
+        flex-direction: column;
+    }
+
+    #form-section {
+        width: 100%;
+    }
+
+    .gallery {
+        flex-direction: column;
+        float: left;
+    }
+
+    .video-container {
+        min-width: 550px;
+        width: auto;
+        height: 500px;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    nav li a {
+        text-align: left;
+    }
+}   
