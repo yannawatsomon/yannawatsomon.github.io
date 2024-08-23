@@ -1,0 +1,12 @@
+* {
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.note ol li {
+    list-style-type: decimal;
+}
