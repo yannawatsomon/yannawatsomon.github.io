@@ -1,0 +1,8 @@
+* {
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container p {
+    display: inline;
+}
