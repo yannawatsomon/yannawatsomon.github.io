@@ -1,4 +1,4 @@
-const formatConvertion = (temp, convertion) => console.log(convertion(temp, convertion))
+const formatConvertion = (temp, convertion) => console.log(convertion(temp))
 
 const celsiusToFahrenheit = (temp) => `${temp}°C is ${((temp *(9/5)) + 32).toFixed(2)}°F`
 const fahrenheitToCelsius = (temp) => `${temp}°F is ${((temp *(5/9)) - 32).toFixed(2)}°C`
